@@ -4,6 +4,7 @@ sudo apt-get update
 sudo apt-get -y install curl git vim
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
+npm config set registry http://registry.npm.taobao.org
 /bin/su ubuntu -c 'npm install log4js'
 /bin/su ubuntu -c 'npm install command-line-args'
 /bin/su ubuntu -c 'npm install ali-oss'
