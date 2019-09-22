@@ -3,7 +3,7 @@ printf "btctop-agent代理安装："
 
 num=039
 
-wget http://122.112.156.142/agent-switch.zip
+wget http://py8jwnf5c.bkt.clouddn.com/agent-switch.zip
 
 sudo apt-get -y install unzip
 sudo apt-get -y install iptables-persistent
