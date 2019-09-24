@@ -6,5 +6,5 @@ if [[ ! -f frp_0.28.2_linux_amd64.tar.gz ]]; then
 fi
 tar -zxvf frp_0.28.2_linux_amd64.tar.gz
 cd frp_0.28.2_linux_amd64
-sed -i '2s/127.0.0.1/122.112.156.142/g' frpc.ini
+sed -i '2s/127.0.0.1/121.40.180.105/g' frpc.ini
 ./frpc 
