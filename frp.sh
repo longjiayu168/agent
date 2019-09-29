@@ -12,4 +12,5 @@ sed -i 's#/usr/bin/#/home/ubuntu/frp_0.28.2_linux_amd64/#' ./systemd/frpc.servic
 sed -i 's#/etc/frp/#/home/ubuntu/frp_0.28.2_linux_amd64/#' ./systemd/frpc.service
 sudo cp ./systemd/frpc.service /lib/systemd/system
 sudo systemctl enable frpc.service
+sudo systemctl start frpc.service
 #./frpc 
