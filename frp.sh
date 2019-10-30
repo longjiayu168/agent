@@ -3,7 +3,7 @@ printf "btctop-agent FRP安装："
 cd /home/ubuntu
 if [[ ! -f frp_0.28.2_linux_amd64.tar.gz ]]; then
     echo -n " downloading frp: "
-    wget http://121.40.180.105:6441/longsoft/frp_0.28.2_linux_amd64.tar.gz
+    wget https://121.40.180.105:6441/longsoft/frp_0.28.2_linux_amd64.tar.gz --no-check-certificate
 fi
 tar -zxvf frp_0.28.2_linux_amd64.tar.gz
 cd frp_0.28.2_linux_amd64
